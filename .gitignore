@@ -1,0 +1,23 @@
+# Python cache (file sampah proses running)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Sangat berat, jangan diupload!)
+.venv/
+venv/
+env/
+
+# Model Files (Jika filenya >100MB, GitHub akan menolak)
+# Jika asisten tidak mewajibkan upload model, abaikan .h5
+# models/*.h5
+
+# Dataset (Jangan upload ribuan gambar ke GitHub!)
+odir_dataset/
+preprocessed_images/
+*.zip
+*.csv
+
+# File sistem
+.DS_Store
+Thumbs.db
