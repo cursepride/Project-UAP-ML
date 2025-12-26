@@ -81,3 +81,15 @@ Berikut adalah ringkasan hasil evaluasi ketiga model:
 | **MobileNetV2** | 76% | 0.78 | 0.76 | 0.75 |
 | **EfficientNet Pro** | 75% | 0.75 | 0.75 | 0.75 |
 
+# Panduan Menjalankan Sistem Klasifikasi Penyakit Mata (Ocular Disease) Secara Lokal dengan Streamlit
+Proyek Anda menggunakan model deep learning (MobileNetV2 dan EfficientNetB0) untuk mengklasifikasikan 8 jenis penyakit mata dari gambar fundus (ODIR-5K dataset). Berikut panduan lengkap untuk membuat dan menjalankan aplikasi web sederhana secara lokal menggunakan Streamlit. Aplikasi ini memungkinkan upload gambar fundus mata, lalu model memprediksi kelas penyakit (N, D, G, C, A, H, M, O).
+1. Siapkan Environment Lokal
+
+Buat folder proyek baru, lalu letakkan file-file ini di dalam folder dan disesuaikan
+Install library yang diperlukan: pip install streamlit tensorflow opencv-python numpy pillow pickle5
+
+2. Buat File Streamlit (app.py)
+Buat file baru bernama app.py
+
+3. Jalankan Aplikasi Secara Lokal
+Di terminal, masuk ke folder proyek lalu jalankan: streamlit run app.py
