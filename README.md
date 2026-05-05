@@ -82,7 +82,7 @@ Berikut adalah ringkasan hasil evaluasi ketiga model:
 | **EfficientNet Pro** | 75% | 0.75 | 0.75 | 0.75 |
 
 # Panduan Menjalankan Dashboard Streamlit
-Proyek Anda menggunakan model deep learning (MobileNetV2 dan EfficientNetB0) untuk mengklasifikasikan 8 jenis penyakit mata dari gambar fundus (ODIR-5K dataset). Berikut panduan lengkap untuk membuat dan menjalankan aplikasi web sederhana secara lokal menggunakan Streamlit. Aplikasi ini memungkinkan upload gambar fundus mata, lalu model memprediksi kelas penyakit (N, D, G, C, A, H, M, O).
+Proyek menggunakan model deep learning (MobileNetV2 dan EfficientNetB0) untuk mengklasifikasikan 8 jenis penyakit mata dari gambar fundus (ODIR-5K dataset). Berikut panduan lengkap untuk membuat dan menjalankan aplikasi web sederhana secara lokal menggunakan Streamlit. Aplikasi ini memungkinkan upload gambar fundus mata, lalu model memprediksi kelas penyakit (N, D, G, C, A, H, M, O).
 1. Siapkan Environment Lokal
 
 Buat folder proyek baru, lalu letakkan file-file ini di dalam folder dan disesuaikan
